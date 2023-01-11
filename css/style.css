@@ -33,8 +33,8 @@ body{
 
 .left.side{
     width: 15vw;
-    height: 100;
-    border-right: 1px solid rgb(0, 0, 0.1);
+    height: 100%;
+    border-right: 1px solid : rgba(0, 0, 0, 0.5)
     position: relative;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@ body{
 
 .sm-product-img-container{
     position: relative;
-    margin: -5vw 0;
+    margin: .5vw 0;
     height: 15vw;
     overflow: hidden;
 }
@@ -136,7 +136,7 @@ line-height: 9vw;
 }
 
 .product-des{
-    margin: 4VW 0;
+    margin: 4vw 0;
     width: 90%;
     font-size: 1.2VW;
     line-height: 2vw;
